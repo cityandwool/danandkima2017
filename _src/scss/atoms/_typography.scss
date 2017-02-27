@@ -1,0 +1,103 @@
+/*
+	Typography
+*/
+
+html {
+	font-size: 10px;
+	line-height: 1.4em;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	font-weight: normal;
+}
+
+body {
+	background: $white;
+	font: 100%/1 $font;
+	-webkit-text-size-adjust: 100%;
+	color: $gray-dark;
+}
+
+%fa {
+	font-family: "FontAwesome";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+	font-weight: normal;
+	margin-bottom: $gutter;
+	small {
+		font-size: 65%;
+		color: $gray;
+	}
+}
+
+h1 {
+	color: $primary;
+}
+
+h1, .alpha   { 
+	font-size: 2.5rem;
+	line-height: 1.2;
+}
+
+h2, .beta    { 
+	font-size: 2.2rem;
+	line-height: 1.2;
+}
+
+h3, .gamma   { 
+	line-height: 1.2;
+}
+
+h4, .delta   {
+	
+}
+
+h5, .epsilon { 
+	
+}
+
+h6, .zeta    { 
+	
+}
+
+// Subheadings
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}
+
+// Text-Related Elements
+p {
+	font-size: 1.6rem;
+	margin-bottom: $gutter;
+}
+
+p.small {
+	font-size: 1.2rem;
+	color: $gray;
+}
+
+tr,
+td,
+li {
+	font-size: 1.6rem;
+}
+
+// Horizontal Rule
+hr {
+	border: 0;
+    height: .1rem;
+    background: $gray-light;
+    margin: $gutter 0;
+	clear: fix;
+}
+
+abbr {
+    border-bottom: .1rem dotted $gray;
+    cursor: help;
+}

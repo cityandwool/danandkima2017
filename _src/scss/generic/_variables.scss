@@ -1,0 +1,40 @@
+/*
+    Variables
+*/
+
+// Colors
+$primary:                   #82144F;
+$secondary:                 #009EDE;
+$tertiary:                  #F5A623;
+$quaternary:                #7AB800;
+$quinary:                   #C7505D;
+
+$gold:                      #FFD300;
+
+// Neutral colors
+$white:                     #fff;
+$gray-lighter:              #F5F5F5;
+$gray-light:                #D6D6D6;
+$gray-light-2:              lighten($gray-light,7%);
+$gray :                     #9B9B9B;
+$gray-dark:                 #4A4A4A;
+$black:                     #000;
+
+// Utility colors
+$error:                     #D0021B;
+$valid:                     $quaternary;
+$success:                   $quaternary;
+$warning:                   $tertiary;
+$information:               $secondary;
+
+// Typography
+$font:                      "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-secondary:            Georgia, Times, "Times New Roman", serif;
+
+// Layout
+$input:                     4rem;
+$button:                    4rem;
+$gutter:                    2rem;
+
+// Images
+$imageLocation:             '/assets/img';

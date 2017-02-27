@@ -1,0 +1,86 @@
+/*
+	Grid
+*/
+
+$columns: 		12;
+
+$mobile: 		76rem;
+$ipad:	 		76.8rem;
+$tablet:		109rem;
+
+html {
+	box-sizing: border-box;
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	}
+}
+
+html, body {
+	min-height: 100%;
+	height: 100%;
+}
+
+%grid {
+	display: block;
+	margin: 0 (-$gutter * 0.5);
+	clear: fix;
+}
+
+.grid {
+	@extend %grid;
+}
+
+$fixed-width: 96rem;
+
+.container {
+	max-width: $fixed-width;
+	padding: 0 $gutter;
+	margin: 0 auto;
+}
+
+@mixin column($n, $col:$columns, $break:'') {
+	//$nth: ($col / $n);
+	@if $break == '' {
+		display: inline;
+		float: left;
+		width: percentage((1 / $col) * $n);
+	    padding: 0 ($gutter * 0.5);
+	    box-sizing: border-box;
+	    clear: fix;
+	} @else {
+		@media screen and (max-width: $break) {
+			width: percentage((1 / $col) * $n);
+		}
+	}
+}
+
+@mixin offset($n, $col:$columns) {
+	margin-left: percentage(( 1 / $col ) * $n);
+}
+
+@mixin pull-left($n, $col:$columns, $break:'') {
+	@include column($n, $col, $break);
+	padding: 0 $gutter 0 0;
+	clear: both;
+}
+
+@mixin pull-right($n, $col:$columns, $break:'') {
+	@include column($n, $col, $break);
+	padding: 0 0 0 $gutter;
+	clear: both;
+	float: right;
+}
+
+@for $i from 1 to $columns + 1 {
+	.col-#{$i} {
+		@include column($i);
+	}
+	.offset-#{$i} { @include offset($i, $columns); }
+}
+
+*[class^="col-"], *[class^="offset-"] {
+	@include column(4,4,$tablet);
+	@media screen and (max-width: $tablet) {
+		margin: 0 0 $gutter 0;
+	}
+}

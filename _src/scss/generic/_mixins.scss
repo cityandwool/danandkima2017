@@ -1,0 +1,32 @@
+
+/*
+	Mixins
+*/
+
+@mixin visuallyhidden {
+    position: absolute; 
+  	overflow: hidden; 
+  	clip: rect(0 0 0 0); 
+  	height: 0rem; width: 0rem; 
+  	margin: -.1rem; padding: 0; border: 0;
+}
+
+@mixin icon($width, $height, $image) {
+	background-image: url('#{$imageLocation}/icon-#{$image}@2x.png');
+	width: $width;
+	height: $height;
+	display: inline-block;
+	background-size: $width $height;
+	background-repeat: no-repeat;
+	background-position: center center;
+	.no-backgroundsize & {
+		background-image: url('#{$imageLocation}/icon-#{$image}.png');
+	}
+};
+
+@mixin background-image($image) {
+	background-image: url('#{$imageLocation}/icon-#{$image}@2x.png');
+	.no-backgroundsize & {
+		background-image: url('#{$imageLocation}/icon-#{$image}.png');
+	}
+};

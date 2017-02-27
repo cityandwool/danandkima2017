@@ -1,0 +1,80 @@
+/*
+	Helpers
+*/
+
+// Completely remove from the flow and screen readers
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+// Completely remove from the flow but leave available to screen readers
+.is-vishidden {
+    @include visuallyhidden();
+}
+
+// Floats
+.right {
+	float: right;
+	padding: 0 0 $gutter $gutter;
+}
+
+.right-search {
+	float: right;
+	padding: 0 0 $gutter 0;
+}
+
+.left {
+	float: left;
+	padding: 0 $gutter $gutter 0;
+}
+
+// Text-Align
+.align-right,
+.text-right {
+	text-align: right;
+}
+
+.align-cente,
+.text-center {
+	text-align: center;
+}
+.align-left
+.text-left, {
+	text-align: left;
+}
+
+// States
+.valid,
+.text-download,
+.text-success,
+.text-quaternary {
+	color: $valid;
+}
+
+.error,
+.text-danger,
+.text-error {
+	color: $error;
+}
+
+.warning,
+.tertiary,
+.text-transcribe,
+.text-warning,
+.text-tertiary {
+    color: $warning;
+}
+
+.information,
+.secondary,
+.text-info,
+.icon-doctor,
+.text-secondary {
+    color: $information;
+}
+
+.text-help,
+.quinary {
+    color: $quinary;
+}

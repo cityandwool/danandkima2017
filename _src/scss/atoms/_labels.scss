@@ -1,0 +1,14 @@
+/*
+    Labels
+*/
+
+label,
+.label {
+	display: block;
+}
+
+label {
+    &:hover {
+        cursor: pointer;
+    }
+}

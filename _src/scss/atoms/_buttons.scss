@@ -1,0 +1,11 @@
+/*
+    Buttons
+*/
+
+%btn {
+	display: inline-block;
+}
+
+.btn {
+	@extend %btn;
+}

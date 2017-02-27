@@ -1,0 +1,11 @@
+/*
+    Well
+*/
+
+.well {
+    background: $gray-lighter;
+    border: .1rem solid $gray-light;
+    padding: $gutter $gutter 0rem $gutter;
+    clear: fix;
+    margin-bottom: $gutter;
+}

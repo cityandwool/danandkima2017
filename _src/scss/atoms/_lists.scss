@@ -1,0 +1,30 @@
+/*
+	Lists
+*/
+
+ol, ul {
+	margin-left: $gutter*2;
+	margin-bottom: $gutter + $gutter/3;
+	ol, ul {
+		margin-bottom: 0rem;
+	}
+	&.list-unstyled {
+		margin: 0rem 0rem $gutter + $gutter/3 $gutter;
+		padding: 0rem;
+		list-style: none;
+		ol, ul {
+			list-style: none;
+		}
+	}
+	&.list-inline {
+		margin: 0rem 0rem $gutter 0rem;
+		li {
+			margin-right: $gutter;
+			display: inline-block;
+			*display: inline;
+		}
+	}
+	li {
+		margin-bottom: .5rem;
+	}
+}
