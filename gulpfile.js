@@ -1,6 +1,6 @@
 'use strict';
 
-var url			= 'dev',
+var url			= 'my.wedding',
 	gulp      	= require( 'gulp' ),
 	fs 			= require( 'fs' ),
 	plugins     = require( 'gulp-load-plugins' )( { lazy: true, pattern: '*' } );

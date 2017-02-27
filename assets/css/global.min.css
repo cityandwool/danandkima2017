@@ -496,3 +496,6 @@ ol.list-inline,ul.list-inline{margin:0 0 2rem 0}ol.list-inline li,ul.list-inline
 ol li,ul li{margin-bottom:.5rem}a{color:#4a4a4a;text-decoration:none;outline:0;transition:all .3s ease-in-out}
 a:hover{color:#82144f}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,p a{border-bottom:.1rem solid #fbe6f2;color:#82144f}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,p a:hover{border-bottom:.1rem solid #82144f}
+body{background:#424e3e url("/assets/img/trees.jpg");background-size:cover;background-attachment:fixed}
+.poster{max-width:60rem;margin:10% auto;background:rgba(196,99,5,0.95) url("/assets/img/smoke.png");background-size:cover;background-position:center center;box-shadow:0 0 2rem #000,0.3;padding:2rem}
+.poster .content{border:7px solid #fff;padding:4rem}.poster .content *{color:#fff}

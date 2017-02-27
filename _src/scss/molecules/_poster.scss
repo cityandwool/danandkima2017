@@ -1,0 +1,27 @@
+
+/*
+    Poster
+*/
+
+body {
+    background: rgb(66, 78, 62) url('/assets/img/trees.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.poster {
+    max-width: 60rem;
+    margin: 10% auto;
+    background: rgba(#C46305,.95) url('/assets/img/smoke.png');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0rem 0rem 2rem ($black,.3);
+    padding: $gutter;
+    .content {
+        border: 7px solid $white;
+        padding: $gutter*2;
+        * {
+            color: $white;
+        }
+    }
+}
