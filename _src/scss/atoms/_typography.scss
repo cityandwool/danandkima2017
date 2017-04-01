@@ -4,7 +4,6 @@
 
 html {
 	font-size: 10px;
-	line-height: 1.4em;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	font-weight: normal;
@@ -15,6 +14,8 @@ body {
 	font: 100%/1 $font;
 	-webkit-text-size-adjust: 100%;
 	color: $gray-dark;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
 }
 
 %fa {
@@ -40,13 +41,15 @@ h1 {
 }
 
 h1, .alpha   { 
-	font-size: 2.5rem;
-	line-height: 1.2;
+	font-size: 3rem;
+	line-height: 3.8rem;
+	font-weight: bold;
 }
 
 h2, .beta    { 
-	font-size: 2.2rem;
-	line-height: 1.2;
+	font-size: 2.5rem;
+	line-height: 2.8rem;
+	font-weight: bold;
 }
 
 h3, .gamma   { 
@@ -73,7 +76,8 @@ h6, .zeta    {
 
 // Text-Related Elements
 p {
-	font-size: 1.6rem;
+	font-size: 2rem;
+	line-height: 2.8rem;
 	margin-bottom: $gutter;
 }
 

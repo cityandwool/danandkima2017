@@ -20,6 +20,10 @@ html, body {
 	height: 100%;
 }
 
+body {
+    background-color: #FFF8E7;
+}
+
 %grid {
 	display: block;
 	margin: 0 (-$gutter * 0.5);

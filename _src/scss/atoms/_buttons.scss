@@ -4,8 +4,22 @@
 
 %btn {
 	display: inline-block;
+	padding: $gutter $gutter*2;
+	font-size: 3rem;
+	color: $white;
+	border-radius: 3px;
 }
 
 .btn {
 	@extend %btn;
+}
+
+.btn-primary {
+	background: $primary;
+	border-bottom: 2px solid darken($primary,10%);
+	transition: all .3s ease-in-out;
+	&:hover {
+		color: $white;
+		background: darken($primary,5%);
+	}
 }
