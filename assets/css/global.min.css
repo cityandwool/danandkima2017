@@ -487,7 +487,7 @@ h3,.gamma{line-height:1.2}.subheading{font-family:Georgia,Times,"Times New Roman
 p{font-size:2rem;line-height:2.8rem;margin-bottom:2rem}p.small{font-size:1.2rem;color:#9b9b9b}
 tr,td,li{font-size:1.6rem}hr:after{content:'';display:block;clear:both}
 hr{border:0;height:.1rem;background:#d6d6d6;margin:2rem 0}abbr{border-bottom:.1rem dotted #9b9b9b;cursor:help}
-.btn{display:inline-block;padding:2rem 4rem;font-size:3rem;color:#fff;border-radius:3px}
+.btn{display:inline-block;padding:2rem 4rem;font-size:2.5rem;color:#fff;border-radius:3px}
 .btn-primary{background:#b99e19;border-bottom:2px solid #8c7813;transition:all .3s ease-in-out}
 .btn-primary:hover{color:#fff;background:#a38b16}label,.label{display:block}label:hover{cursor:pointer}
 table{border-collapse:collapse;border-spacing:0;width:100%;border:0;margin-bottom:4rem}
@@ -499,5 +499,4 @@ ol.list-inline,ul.list-inline{margin:0 0 2rem 0}ol.list-inline li,ul.list-inline
 ol li,ul li{margin-bottom:.5rem}a{color:#4a4a4a;text-decoration:none;outline:0;transition:all .3s ease-in-out}
 a:hover{color:#b99e19}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,p a{border-bottom:.1rem solid white;color:#b99e19}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,p a:hover{border-bottom:.1rem solid #b99e19}
-.our-wedding{width:100%;height:auto;display:block;margin-bottom:2rem;margin:-5px -20px}
-.other-information{display:block;margin:4rem auto;max-width:400px;width:100%}
+.our-wedding{width:80%;height:auto;display:block;margin:4rem auto}.other-information{display:block;margin:4rem auto;max-width:400px;width:100%}
