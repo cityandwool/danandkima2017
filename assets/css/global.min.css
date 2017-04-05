@@ -500,3 +500,7 @@ ol li,ul li{margin-bottom:.5rem}a{color:#4a4a4a;text-decoration:none;outline:0;t
 a:hover{color:#b99e19}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,p a{border-bottom:.1rem solid white;color:#b99e19}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,p a:hover{border-bottom:.1rem solid #b99e19}
 .our-wedding{width:80%;height:auto;display:block;margin:4rem auto}.other-information{display:block;margin:4rem auto;max-width:400px;width:100%}
+.logo{width:100%;max-width:400px;padding:4rem 4rem 2rem 4rem;display:block;margin:0 auto}
+.nav{width:100%}.nav ul{margin:0 0 1.5rem 0;padding:0;text-align:center}.nav li{display:inline-block}
+.nav li a{display:block;padding:1rem}.hero{height:0;padding-bottom:33%;color:#fff}
+.hero-1{background-size:cover;background-position:center center;background-image:url("/assets/img/dan-and-kima-1.jpg")}

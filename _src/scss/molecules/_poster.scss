@@ -16,3 +16,39 @@
     max-width: 400px;
     width: 100%;
 }
+
+.logo {
+    width: 100%;
+    max-width: 400px;
+    padding: $gutter*2 $gutter*2 $gutter $gutter*2;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    ul {
+        margin: 0px 0px $gutter*.75 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        a {
+            display: block;
+            padding: $gutter/2;
+        }
+    }
+}
+
+.hero {
+    height: 0px;
+    padding-bottom: 33%;
+    color: $white;
+}
+
+.hero-1 {
+    background-size: cover;
+    background-position: center center;
+    background-image: url('/assets/img/dan-and-kima-1.jpg');
+}
