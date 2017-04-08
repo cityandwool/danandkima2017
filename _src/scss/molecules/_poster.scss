@@ -39,11 +39,14 @@
             padding: $gutter/2;
         }
     }
+    .active a {
+        color: $primary;
+    }
 }
 
 .hero {
     height: 0px;
-    padding-bottom: 33%;
+    padding-bottom: 40%;
     color: $white;
 }
 
@@ -51,4 +54,28 @@
     background-size: cover;
     background-position: center center;
     background-image: url('/assets/img/dan-and-kima-1.jpg');
+}
+
+.hero-2 {
+    background-size: cover;
+    background-position: center 17%;
+    background-image: url('/assets/img/dan-and-kima-2.jpg');
+}
+
+.hero-3 {
+    background-size: cover;
+    background-position: center 12%;
+    background-image: url('/assets/img/dan-and-kima-3.PNG');
+}
+
+.hero-4 {
+    background-size: cover;
+    background-position: center 9%;
+    background-image: url('/assets/img/dan-and-kima-4.JPG');
+}
+
+.hero-5 {
+    background-size: cover;
+    background-position: center 62%;
+    background-image: url('/assets/img/dan-and-kima-5.JPG');
 }
