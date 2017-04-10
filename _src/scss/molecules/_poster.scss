@@ -28,7 +28,7 @@
 .nav {
     width: 100%;
     ul {
-        margin: 0px 0px $gutter*.75 0px;
+        margin: 0px 0px $gutter/2 0px;
         padding: 0px;
         text-align: center;
     }
@@ -36,7 +36,7 @@
         display: inline-block;
         a {
             display: block;
-            padding: $gutter/2;
+            padding: $gutter/3;
         }
     }
     .active a {
@@ -48,6 +48,7 @@
     height: 0px;
     padding-bottom: 40%;
     color: $white;
+    display: none;
 }
 
 .hero-1 {
@@ -65,17 +66,73 @@
 .hero-3 {
     background-size: cover;
     background-position: center 12%;
-    background-image: url('/assets/img/dan-and-kima-3.PNG');
+    //background-image: url('/assets/img/dan-and-kima-3.PNG');
 }
 
 .hero-4 {
     background-size: cover;
     background-position: center 9%;
-    background-image: url('/assets/img/dan-and-kima-4.JPG');
+    //background-image: url('/assets/img/dan-and-kima-4.JPG');
 }
 
 .hero-5 {
     background-size: cover;
     background-position: center 62%;
-    background-image: url('/assets/img/dan-and-kima-5.jpg');
+    //background-image: url('/assets/img/dan-and-kima-5.jpg');
+}
+
+.smoke {
+    background-size: cover;
+    background-position: center center;
+    background-image: url('/assets/img/smoke-background.jpg');
+    .border {
+        margin: 5% auto;
+        background: $white;
+        padding: 0px 0px $gutter*2 0px;
+    }
+}
+
+
+.home {
+    background-size: cover;
+    background-position: center center;
+    background-image: url('/assets/img/smoke-background.jpg');
+    h1 {
+        color: $white;
+        font-size: 100px;
+        font-weight: normal;
+        margin-bottom: $gutter;
+        line-height: 1em;
+    }
+    .block {
+    text-align: center;
+    height: 100%;
+    /* May want to do this if there is risk the container may be narrower than the element inside */
+    white-space: nowrap;
+    }
+    
+    /* The ghost, nudged to maintain perfect centering */
+    .block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+    }
+
+    /* The element to be centered, can also be of any width and height */ 
+    .centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 99%;
+    }
+    .btn-primary {
+        background: transparent;
+        border: 2px solid $white;
+        border-radius: 0px;
+        &:hover {
+            background: $white;
+            color: #af5c23;
+        }
+    }
 }
