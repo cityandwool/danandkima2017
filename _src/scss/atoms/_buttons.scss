@@ -18,6 +18,7 @@
 	background: $primary;
 	border-bottom: 2px solid darken($primary,10%);
 	transition: all .3s ease-in-out;
+	margin-bottom: 10px;
 	&:hover {
 		color: $white;
 		background: darken($primary,5%);
